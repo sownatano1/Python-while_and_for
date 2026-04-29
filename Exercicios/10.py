@@ -10,7 +10,7 @@ def LimparTerminal():
 while(exit != 0):
     
     LimparTerminal()
-    print("Menu Principal")
+    print("Menu")
     print("Digite 'E' para entrar")
     print("Digite 'C' para acessar as configurações")
     print("Digite 'S' para sair")
@@ -18,7 +18,7 @@ while(exit != 0):
         
     if (resposta == "E", "e"):
         LimparTerminal()
-        print("Menu de Principal")
+        print("Menu Principal")
         print("Digite 'M' para voltar para o Menu")
         resposta = input()
             
@@ -27,12 +27,12 @@ while(exit != 0):
         print("Menu de Configurações")
         print("Digite 'M' para voltar para o Menu")
         resposta = input()
-         
+        
     elif (resposta == "S", "s"):
         LimparTerminal()
         print("Você saiu do Menu")
         exit = 0
-    
+
     else:
         LimparTerminal()
         print("Menu incorreto")
